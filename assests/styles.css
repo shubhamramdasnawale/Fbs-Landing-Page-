@@ -1,0 +1,363 @@
+/* Gradient Background */
+.gradient-background {
+    background:
+        linear-gradient(to bottom, rgb(22, 6, 239), rgba(239, 242, 243, 0.8)),
+        url('') no-repeat center center/cover;
+    min-height: 90px;
+    color: #fff;
+    position: relative;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.contact-details {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details i {
+    margin-right: 5px;
+    color: #081bed; /* Highlight icon color */
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons .nav-link {
+    color: #0b0a0a;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons .nav-link:hover {
+    color: #ff0000; /* Highlight on hover */
+}
+
+/* Card/Form Styling */
+.card {
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #001f3f;
+    border: none;
+}
+
+.text-primary {
+    color: #ff6a00 !important;
+}
+
+/* List Styling */
+.list-unstyled i {
+    margin-right: 8px;
+}
+
+/* Reduced Form Width */
+.card {
+    max-width: 400px;
+    margin-left: 50px;
+
+}
+
+
+/* Running Advertisement Styling with Blinking Effect */
+.running-ad {
+    background-color: #d53636;
+    color: white;
+    font-weight: bold;
+    animation: blink 2s infinite;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Logo Styling */
+.logo-container {
+    text-align: center;
+}
+
+.feature-section {
+    padding: 5px 5px;
+    background: linear-gradient(to right, #07a2f5, #df150a);
+    color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+
+}
+
+.feature-box:hover {
+    background-color:skyblue;
+    color: #01060b;
+}
+
+.feature-box i {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.feature-box p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.feature-box p:hover {
+    color: #007bff;
+}
+
+.countdown {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown .progress {
+    height: 5px;
+    margin-top: 5px;
+}
+.stats-section {
+    background-color: #00344d; /* Dark blue background */
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stats-section h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.stat-box h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #efdc0e; /* Highlighted number */
+}
+
+.stat-box p {
+    font-size: 0.9rem;
+    color: #d9d9d9;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  .career-section {
+    background: linear-gradient(to right, #f9f9f9, rgba(255, 255, 255, 0.7));
+    padding: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .career-content {
+    max-width: 600px;
+  }
+  .career-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .career-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  .btn-counsellor {
+    background-color: #000080;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  .btn-counsellor:hover {
+    background-color: #3333cc;
+  }
+  .career-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* General Button Styling */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #333;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+/* Icon Styling */
+.button i {
+    font-size: 20px;
+    margin-right: 10px;
+    z-index: 1; /* Ensures icon stays above the border */
+}
+
+/* WhatsApp Button Styling */
+.whatsapp-button {
+    background-color: #25D366; /* WhatsApp Green */
+    color: #ffffff;
+}
+
+/* Telegram Button Styling */
+.telegram-button {
+    background-color: #0088cc; /* Telegram Blue */
+    color: #ffffff;
+}
+
+/* Border Animation for both buttons */
+.button:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: #ff6a00;
+    transition: all 0.4s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.button:hover:before {
+    width: 0;
+    height: 0;
+}
+
+/* Button Hover Effect */
+.button:hover {
+    color: #ffffff;
+    box-shadow: 0 0 10px 2px #ff6a00;
+}
+
+/* Button Text Styling */
+.button span {
+    z-index: 1;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+}
+
+/* Hover Effects for Text */
+.button:hover span {
+    color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    /* Adjust logo styling */
+    .navbar-brand {
+      flex-grow: 1;
+      text-align: center; /* Center align the logo for small screens */
+    }
+  
+    .logo {
+      height: 35px; /* Reduce logo size for smaller screens */
+    }
+    
+    .social-icons {
+        justify-content: space-around;
+        display: flex;
+        margin-left: 40px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: space-between;
+        align-items: center;
+    }    qa  
+    /* Adjust social media icons and contact details */
+    .contact-social {
+      display: flex !important; /* Ensure visibility in collapsible menu */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    .contact-info {
+      text-align: center;
+      margin-bottom: 0.5rem; /* Add spacing between contact items */
+      font-size: 0.9rem; /* Slightly smaller font size */
+    }
+  
+    .social-icon {
+      font-size: 1.2rem; /* Adjust social icon size for better fit */
+      margin-right: 0.5rem;
+    }
+  
+    /* Ensure navbar toggler is properly styled */
+    .navbar-toggler {
+      margin-left: auto;
+      margin-right: 1rem;
+    }
+  
+    /* Adjust spacing for better readability */
+    .navbar-collapse {
+      padding: 0.5rem;
+    }
+  }
+  
+  
